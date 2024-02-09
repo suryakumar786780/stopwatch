@@ -15,7 +15,7 @@ const TimerFunc = ({ timer, settimer }) => {
             } else {
                 setMilliSec(millisec + 1)
             }
-            if (sec === 59) {
+            if (sec > 59) {
                 setSec(0);
                 setMin(min + 1);
             }
