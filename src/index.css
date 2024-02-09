@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 54.05rem;
+    background-color: #7f7bf1;
+    color: white;
+}
